@@ -1,0 +1,49 @@
+Script started on Wed Jan 24 16:41:41 2018
+[?1034hbash-3.2$ g++[K[K[Kpwd
+/Users/krupalidedhia/desktop/cs3377/PA_01_Krupali_Dedhia 
+bash-3.2$ g++ CLIparseAndTokenizer.cpp -o outputFinal
+bash-3.2$ ./OU[K[KoutputFinal
+
+Enter the command or QUIT to exit the program.
+<<ls -la ./myhome
+Command: ls 
+Options: -la 
+Arguments: ./myhome
+the number of tokens is 3, the command name is ls 
+
+Enter the userCommand or QUIT to exit
+<< wc myfile.txt > count
+Command: wc myfile.txt 
+File Redirection: >
+FILE:  count
+the number of tokens is 3, the command name is wc myfile.txt 
+
+Enter the userCommand or QUIT to exit
+<< ls -ltR | grep cs3377 > output.txt
+Command: ls 
+Options: -ltR 
+Special Character: |
+File Redirection: >
+FILE:  output.txt
+the number of tokens is 5, the command name is ls 
+
+Enter the userCommand or QUIT to exit
+<< grep foobar < myfile.txt | wc -l > NumberOfLines
+Command: grep foobar 
+Options: -l > NumberOfLines
+File Redirection: <
+Special Character: |
+Options: -l 
+File Redirection: >
+FILE:  NumberOfLines
+the number of tokens is 7, the command name is grep foobar 
+
+Enter the userCommand or QUIT to exit
+<< QUIT
+Exiting!!
+bash-3.2$ ls
+CLIparseAndTokenizer.cpp	output
+myscipt.log			outputFinal
+bash-3.2$ exit
+
+Script done on Wed Jan 24 16:43:08 2018
